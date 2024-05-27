@@ -1,0 +1,203 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url("https://cssdeck.com/uploads/media/items/7/7AF2Qzt.png")
+		repeat scroll 0 0 #DCDDDF;
+	padddin: 0px;
+	margin: 0px;
+	height: 100%;
+	font-family: tahoma;
+	font-size: 12px  !important;
+}
+
+h1,h2,h3,h4{
+	margin:0px;
+	color: #E53D3D;
+}
+p {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: inline;
+	padding: 5px;
+	padding-left: 50px;
+	float: left;
+	color: #f2f2f2;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header {
+	background-color: #444;
+	border-bottom: 1px solid #777;
+	height: 80px;
+	width: 100%;
+	padding: 5px;
+	margin: 0px;
+}
+
+.header a {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+.footer {
+	background-color: #444;
+	border-top: 2px solid #f2f2f2;
+	width: 100%;
+	padding: 5px;
+	margin: 0px;
+	color: #f2f2f2;
+	font-weight: bold;
+	height: 25px;
+	margin: -25px auto 0;
+}
+
+.menu {
+	height: 28px;
+	background-color: #444;
+}
+
+.usersMenu {
+	color: #fff; float : right;
+	padding: 5px;
+	padding-right: 15px;
+	float: right;
+}
+
+.error {
+	color: red;
+	border: 1px solid red;
+	width: 300px;
+	padding: 10px;
+	margin: 5px;
+	background-color: #FFE0E0;
+}
+
+#page-wrap {
+	width: 960px;
+	margin: auto;
+	height: auto;
+	min-height: 100%;
+	background-color: #fff;
+	padding:20px;
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+}
+
+#page-wrap:after {
+	width: 100%;
+	height: 50px;
+	display: block;
+	clear: both;
+}
+
+.divButtons{
+	width: 100%;
+	text-align: center;
+	margin:20px;
+}
+
+.table1{
+	width:100%;
+	font-size:12px; 
+}
+
+.table1 TH{
+	background-color:#DD5252;
+	color:#f9f9f9;
+	font-size:13px; 
+	font-weight: bold;
+	padding:5px;
+	text-align: left;
+	 border-right: 1px solid #BBB;
+}
+
+.table1 TH a{
+	color:#ddd;
+	
+}
+
+.table1 TD{
+	border-bottom:1px solid #ddd;
+	padding:5px;
+	font-size: 12px  !important;
+}
+
+.subtitulo{
+	border-bottom:1px solid #ddd;
+	font-size: 12px;
+	font-weight:bold;
+	color:#555;
+}
+
+.tableForm{
+	font-size: 12px;
+	font-weight:bold;
+	color:#555;
+}
+
+.tableForm TD{
+	
+}
+
+.imagesForm{
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	padding:10px;
+}
+
+.imagenesDiv{
+	width:100%;
+	overflow: hidden;
+}
+
+.imagenDiv{
+	width:200px;
+	float:left;
+	margin:7px;
+	padding:9px;
+	background-color: #dfdfdf;
+	border: 1px solid #ccc;
+	text-align:center;
+	
+	
+}
+.imagenTable{
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	margin-top:20px;
+	font-size:12px;
+}
+.imagenTable TH{
+	text-align: left;
+	border-bottom: 1px solid #bbb;
+}
+.imagenTable TD{
+	margin:0px;
+	padding:5px;
+	border-bottom: 1px solid #bbb;
+	color:#333;
+}
+.imagenesForm{
+	border: 1px solid #f9f9f9;
+	padding: 10px;
+	margin:10px;
+	background-color: #ddd;
+	line-height: 30px;
+}
